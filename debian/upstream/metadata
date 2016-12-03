@@ -1,0 +1,12 @@
+---
+Archive: "https://github.com/"
+Bug-Database: >
+  https://github.com/shaarli/netscape-bookmark-parser/issues
+Bug-Submit: "https://github.com/shaarli/netscape-bookmark-parser/issues/new"
+Changelog: "https://github.com/shaarli/netscape-bookmark-parser/archive/master.zip"
+Contact: Kafene <io@kafene.org>
+	 VirtualTam <virtualtam@flibidi.net>
+Name: shaarli/netscape-bookmark-parser
+Repository: "https://github.com/shaarli/netscape-boookmark-parser/"
+Repository-Browse: "https://github.com/shaarli/netscape-boookmark-parser/"
+

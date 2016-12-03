@@ -1,0 +1,23 @@
+Source: netscape-bookmark-parser
+Section: php
+Priority: extra
+Maintainer: Rajasekhar Ponakala <rajasekhar@swecha.net>
+Build-Depends:
+ debhelper (>= 9),
+ pkg-php-tools (>= 1.7~),
+Standards-Version: 3.9.6
+Homepage: https://github.com/shaarli/netscape-bookmark-parser/
+
+Package: netscape-bookmark-parser
+Architecture: all
+Depends:
+ ${misc:Depends},
+ ${phpcomposer:Debian-require},
+Recommends:
+ ${phpcomposer:Debian-recommend},
+Suggests:
+ ${phpcomposer:Debian-suggest},
+Description: generic Netscape bookmark parser
+ This library provides a generic `NetscapeBookmarkParser` class
+ that is able of parsing Netscape bookmarks as exported
+ by common Web browsers and bookmarking services.

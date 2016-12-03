@@ -1,0 +1,4 @@
+version=3
+opts=filenamemangle=s/.+\/v?(\d\S*)\.tar\.gz/php-mf2-$1\.tar\.gz/ \
+https://github.com/shaarli/netscape-bookmark-parser/releases .*/v?(\d\S*)\.tar\.gz
+
